@@ -1,0 +1,9 @@
+name: waitgroup
+version: 0.1.0
+
+authors:
+  - D. Scott Boggs <scott@tams.tech>
+
+crystal: 0.35.1
+
+license: MIT
