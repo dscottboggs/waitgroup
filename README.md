@@ -21,11 +21,8 @@ require "waitgroup"
 wg = WaitGroup.new
 time_taken = Time.measure do
   10.times do
-    spawn do
-      wg.add do
-        sleep 1
-        done
-      end
+    wg.spawn do
+      sleep 1
     end
   end
   wg.wait
