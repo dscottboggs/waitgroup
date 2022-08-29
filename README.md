@@ -18,7 +18,7 @@ Simple waitgroup implementation for Crystal.
 ```crystal
 require "waitgroup"
 
-wg = WaitGroup.new 10
+wg = WaitGroup.new
 time_taken = Time.measure do
   10.times do
     spawn do
